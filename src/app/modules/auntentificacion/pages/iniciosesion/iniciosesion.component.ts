@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { usuarios } from './models/usuario';
 
 @Component({
   selector: 'app-iniciosesion',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./iniciosesion.component.css']
 })
 export class IniciosesionComponent {
+hide = true
 
 }
+
+
